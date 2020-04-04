@@ -41,7 +41,24 @@
     - Ditto for any other regional info
     - FIXME: code for this? In JS? Who writes it?
 
+**** Simple idea 1 + showing regions
+     - Like simple idea 1, but when passing mouse over point with
+       classifier output display regions that image activates in the
+       NN. (Like center images in Fig. 13 to 22 in Elkins et al., 2019)
+     - Alternatively, display those on top of plot, always.
 
+
+
+
+
+
+* Performance statistics: output
+- Should be easy to interpret for medical doctors
+- Might be important if data are stratified (e.g., maybe the NN works
+  better with people of a certain age)
+- This is a three-class problem
+- ROC curves unwidely?
+- Brier score for Covid vs rest?
 
 
 * Notas links output
@@ -50,3 +67,5 @@
   - https://github.com/ieee8023/covid-chestxray-dataset
   - https://github.com/CSSEGISandData/COVID-19
   - https://github.com/BIMCV-CSUSP/BIMCV-COVID-19 
+  - https://stanfordmlgroup.github.io/projects/chexnet/
+
