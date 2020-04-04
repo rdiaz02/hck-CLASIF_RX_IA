@@ -1,3 +1,4 @@
+Las cosas a hacer/pensar están precedidas de un FIXME
 
 * Cases
 

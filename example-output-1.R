@@ -4,7 +4,7 @@ time_data <- read.csv("example-timeline-data.csv", header = TRUE)
 as.POSIXct(time_data[, "Fecha"], tz = Sys.timezone())
 classif_data <- data.frame(Fecha = c("17/03/2020", "19/03/2020", "03/04/2020"),
                            Sano = c(60, 50, 30),
-                           Covid = c(15, 25, 40))
+                           Covid = c(45, 25, 10))
 
 d1 <- dplyr::full_join(time_data, classif_data, by = "Fecha")
 d2 <- d1
@@ -25,12 +25,13 @@ plot(Covid ~ Fecha2, data = d4, type = "b", xaxt = "n",
 axis(1, d3$Fecha2, format(d3$Fecha2, "%b %d"), cex.axis = .7, las = 2)
 d5 <- d3[!is.na(d3$Evento), ]
 text(d5$Fecha2,
-     min(d3$Covid, na.rm = TRUE),
+     1.1 * min(d3$Covid, na.rm = TRUE),
      ##0.5 * (max(d3$Covid, na.rm = TRUE) + min(d3$Covid, na.rm = TRUE)),
      labels = d5$Evento,
      srt = 90,
-     # pos = 3,
-     # adj = c(0.5, 1),
+     pos = 3,
+     offset = 1,
+     ## adj = c(0.5, 0),
      cex = 0.7)
 dev.off()
 
