@@ -1,1 +1,30 @@
 
+* Cases
+
+** Diagnostico
+   - Simple output as shown now: probabilities (well % ) for each of the
+     three types as in http://tomografia.es/tester/
+     - Sano, Neumonia NO COVID-19, Neumonía COVID-19
+     - FIXME: work on how output is displayed
+       - instead of "=:" show "="?
+       - Reword as "Neumonia NO compatible COVID-19" and "Neumonía
+         compatible COVID-19"?
+   - Show output by regions.
+     - FIXME: details
+
+** Evolucion
+   - For the prototype (i.e., now) info (dates, events) is uploaded each
+     time
+     - FIXME: what info, exactly? how?
+       - Probably simpler for prototype with doctors if a xls file?
+	 - Define columns and names of columns
+	 - Just two fields? Date and Event?
+     - FIXME: how are sets of 3 to 4 RX uploaded and kept in sync with
+       dates in patient info?
+       - RX should, at a minimum, have dates as name or metadata.
+
+*** Display evolucion
+**** Simple idea 1:
+    - Main plot: x-axis is time, y-axis Prob of COVID-19, annotate by times
+    - Same for the other two classification outputs
+    - Ditto for any other regional info
