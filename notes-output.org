@@ -32,6 +32,8 @@
 **** Simple idea 1:
     - Main plot: x-axis is time, y-axis Prob of COVID-19
       - Annotate the plot adding the events from the file with events
+      - Example at: example-output-1.png
+	- R code in "example-output-1.R"
     - Same for the other two classification outputs (Sano, Neumonia NO compatible COVID-19)
     - Ditto for any other regional info
     - FIXME: code for this? In JS? Who writes it?
