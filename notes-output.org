@@ -25,6 +25,9 @@
        dates in patient info?
        - RX should, at a minimum, have dates as name or metadata.
        - How is classification output returned?
+       - Can we provide error intervals around estimates (or just add them
+         from a binomial?)
+	 
 
 
 
