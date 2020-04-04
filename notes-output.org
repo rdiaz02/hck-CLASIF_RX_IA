@@ -47,3 +47,6 @@
 * Notas links output
   - http://tomografia.es
   - https://github.com/lindawangg/COVID-Net
+  - https://github.com/ieee8023/covid-chestxray-dataset
+  - https://github.com/CSSEGISandData/COVID-19
+  - https://github.com/BIMCV-CSUSP/BIMCV-COVID-19 
