@@ -69,4 +69,8 @@ Las cosas a hacer/pensar están precedidas de un FIXME
   - https://github.com/ieee8023/covid-chestxray-dataset
   - https://github.com/CSSEGISandData/COVID-19
   - https://github.com/BIMCV-CSUSP/BIMCV-COVID-19 
-  - https://stanfordmlgroup.github.io/projects/chexnet/  
+  - https://stanfordmlgroup.github.io/projects/chexnet/
+  - https://tomografia.es/COVID19IA/
+
+** libreria gráficos JS
+   - https://plotly.com/javascript/
